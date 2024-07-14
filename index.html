@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Free Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">My Free Website</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">My Free Website</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img class="profile" src="./assets/profile-2.jpg" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Gerald Ortiz</h1>
+        <p class="section__text__p2">Front-End Developer</p>
+        <h1 class="title">And i will</h1>
+        <h1 class="title"> build your website </h1>
+        <h1 class="title" >for free</h1>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="location.href='./#description'"
+          >
+            More Info
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact 
+          </button>
+        </div>
+        
+      </div>
+    </section>
+<section id="description">
+  <p class="section__text__p1">how does it work?</p>
+      <h1 class="title">Why Do You Need A Website?</h1>
+
+      <div class="text-container">
+        <p style="text-align: center; margin:3vh;">
+          In today's digital world, people turn to Google to find practically 
+          anything, everywhere. From finding answers to questions to products and
+           services near them. Search engines play an important role in the 
+           online success of businesses. Without a website, potential customers 
+           cannot find you in their searches. Creating a central location to 
+           store your address, your phone number, a contact form, a product / 
+           service list, prices, etc. will open the door for people to 
+           find your business online. 
+        </p>
+      </div>
+
+
+
+      <div class="details-container0" class="row">
+
+      <div class="details-container1">
+            <img
+            src="./assets/experience.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <h3>Credibility</h3>
+            
+            <div class="dropdown">
+              <button class="dropbtn">
+                <img  class="description-icon" src="./assets/arrow.png" alt="">
+              </button>
+              <div id="myDIV" class="dropdown-content">
+                <p>
+                  Having a website increases your business credibility. In our digital 
+                  age, not having a website for your business is grounds for suspicion,
+                   and you will not be able to convert as many sales as you would if 
+                   you had a more stable digital presence. Customers will seek you out
+                  online, and having a website is one of the criteria for determining
+                   trustworthiness.
+
+                </p>
+              </div>
+            </div>
+          </div>
+            <div class="details-container2">
+              <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>Advertising</h3>
+              
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <img  class="description-icon" src="./assets/arrow.png" alt="">
+                </button>
+                <div id="myDIV-2" class="dropdown-content">
+                  <p>
+                    At its basic core, a website replaces a brochure. It is informational 
+                    in nature, offering people insights into who you are, why you are 
+                    different, and what you provide or sell. At its best, a website can 
+                    build community, connection, and loyalty when content is kept fresh and engaging.
+
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="details-container3">
+            <img
+            src="./assets/experience.png"
+            alt="Experience icon"
+            class="icon"
+          />
+          <h3>Accesibility</h3>
+            
+            <div class="dropdown">
+              <button class="dropbtn">
+                <img  class="description-icon" src="./assets/arrow.png" alt="">
+              </button>
+              <div id="myDIV-3" class="dropdown-content">
+                <p>
+                  Customers love the convenience of shopping from home. Businesses 
+                  without a web presence miss out on these customers. They also may be 
+                  considered out of date or not "with it" by those who have grown up on the internet.
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div  class="text-container1">
+        <p style="text-align: center; margin:3vh;">
+           If you would like to showcase your products, services, 
+           non-profit organization, hobbies or any activity online, let the 
+           world know more about them with a custumized website
+        </p>
+        <h1 style="text-align: center; margin-bottom: 2vh;">This is for you!</h1>
+        <button id="getincontact" class="btn btn-color-1"
+        onclick="location.href='./#contact'"> Get in Contact</button>
+      </div>
+</section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile-3-retoched.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />Electronic and Telecommunication Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello there, my name is Gerald Ortiz, I'm a graduated engineer from Nicaragua,
+              now based in Santa Cruz, CA. Currently saving to eventually go for my Msc. Degree
+              in to software Development. I'm willing to build your website for free
+              so I can build my portfolio and if you think I'm doing a good job tips are welcome!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Boodstrap</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Vite</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Netlify</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GitHub</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Goggle Fonts</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Animasta</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Vs Code</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Future projects</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='#contact'"
+              >
+                Contact Me
+              </button>
+             
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/restaurantimg.avif"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Walnut Cafe Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://grand-tartufo-2cb0e3.netlify.app/'"
+              >
+                Visit Website
+              </button>
+        
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Future Projects</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='#contact'"
+              >
+                Contact Me
+              </button>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+<div class="contact-wrapper">
+<div class="donate-wrapper">
+  <p class="section__text__p1">
+    Building Websites is a time consuming activity,
+    if you would like to support my work please consider 
+    donating with the link below 
+</p>
+  <h1 class="title">Thank you for your support</h1>
+  <div class="contact-info-upper-containe">
+    <p style="text-align: center;">scan the code or click the image</p>
+    <div class="contact-info-container1">
+       
+      <div class="paypal">
+       
+        <img
+        src="./assets/paypal.png"
+        alt="paypal icon"
+        class="paypal-icon"
+      />
+      </div>
+      
+  
+      <div class="buymeacoffe">
+<a href="https://buymeacoffee.com/">
+<img
+      src="./assets/buymeacoffe.jpg"
+      alt="paypal icon"
+      class="paypal-icon"
+    />
+
+</a>
+ 
+      </div>
+     
+    </div>
+  </div>
+
+
+</div>
+<div class="contact-content">
+<p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">example@gmail.com</a></p>
+        </div>
+      </div>
+
+</div>
+</div>
+
+
+
+      
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 My Free Website. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
