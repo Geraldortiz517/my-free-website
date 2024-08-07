@@ -10,6 +10,12 @@
   #projects {
     height: fit-content;
   }
+  #pricinimg{
+    width:550px;
+  }
+  .pricing-img{
+    width: 20%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -55,9 +61,29 @@
   .details-container3{
     padding: 0.5rem; 
   }
+  .img-container{
+    display: block;
+    justify-content: center;
+  }
+  .pricing-text{
+    width: 80%;
+  }
 }
-
+@media screen and (max-width: 800px) {
+  .pricing-img{
+    width: 80%;
+  }
+  #pricinimg{
+    width: 400px;
+  }
+}
 @media screen and (max-width: 600px) {
+  .pricing-img{
+    width: 100%;
+  }
+  #pricinimg{
+    width: 100%;
+  }
   #contact,
   footer {
     height: fit-content;
@@ -139,4 +165,19 @@
   .text-container {
     text-align: justify;
   }
+  .article-text{
+    font-size: 10px;
+  }
+  
+    #pricing{
+      width: 90%;
+      margin-left: 5%;
+      
+    }
+    .contact-info-upper-container{
+      width: 50%;
+    }
+    .email{
+      display: none;
+    }
 }

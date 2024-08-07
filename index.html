@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Free Website</title>
+    <title>Digital Solutions</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">My Free Website Project</div>
+      <div class="logo">Digital Solutions</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#projects">Projects & Experience</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -46,7 +46,6 @@
         <p class="section__text__p2">Front-End Developer</p>
         <h1 class="title">And I will</h1>
         <h1 class="title"> build your website </h1>
-        <h1 class="title" >for free</h1>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -159,10 +158,53 @@
            world know more about them with a customized website
         </p>
         <h1 style="text-align: center; margin-bottom: 2vh;">This is for you!</h1>
+        
         <button id="getincontact" class="btn btn-color-1"
         onclick="location.href='./#contact'"> Get in Contact</button>
       </div>
 </section>
+<section id="pricing" style="height: fit-content;">
+  <h1 class="title" style="text-align: left; margin-left: 6vh; margin-top: 5vh;">Creative Website Design</h1>
+  <h3 class="section__text__p1"style="text-align: left; margin-left: 6vh" >
+    Starting at $400</h3>
+
+      
+<div class="img-container" >
+      <div class="text-container" >
+        <p class="pricing-text" style="text-align:left; margin:6vh;">
+          A one-of-a-kind, creative website that truly captures the essence of 
+          your business. Our approach seamlessly blends exceptional design, 
+          practical functionality, and user engagement, 
+          all while ensuring it’s cost-effective without compromising quality.
+        </p>
+        <div>
+          <ul style="list-style: none;margin: 9vh;">
+            <li><img style="height: 25px; margin-right: 2vh;" src="./assets/checkmark.png" alt="">Unique & Creative Designs</li>
+            <li><img style="height: 25px;margin-right: 2vh; " src="./assets/checkmark.png" alt="">Modern Web Practices </li>
+            <li><img style="height: 25px;margin-right: 2vh;" src="./assets/checkmark.png" alt="">Mobile Friendly </li>
+            <li><img style="height: 25px;margin-right: 2vh;" src="./assets/checkmark.png" alt="">Transparent Pricing</li>
+            <li><img style="height: 25px;margin-right: 2vh;" src="./assets/checkmark.png" alt="">Reliable Comunication</li>
+          </ul>
+        </div>
+      </div>
+<div class="pricing-img">
+<img id="pricinimg"  src="./assets/file.png" alt="">
+</div>
+
+</div>
+
+      
+      <div  class="text-container1" style="padding-bottom: 6vh;">
+       
+        <button id="getincontact" class="btn btn-color-2"
+        onclick="location.href='./#contact'"> Get in Contact</button>
+      </div>
+</section>
+
+
+
+
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -195,29 +237,25 @@
               <p>B.S. Bachelors Degree<br />Electronic and Telecommunication Engineering</p>
             </div>
           </div>
-          <div class="text-container">
+          <div class="text-container" style="text-align: center;">
             <p>
               Hello there, my name is Gerald Ortiz, I'm a graduated engineer from Nicaragua,
               now based in Santa Cruz, CA. Currently saving to eventually go for my M.S. Degree
-              in to Software Development. I'm willing to build your website for free
-              so I can build my portfolio and if you think I'm doing a good job tips are welcome!
+              in to Software Development
             </p>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+     
+
     </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects & Experience</h1>
+
+<div class="details-container">
             <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
               <article>
@@ -226,7 +264,7 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
+                <div class="article-text">
                   <h3>HTML</h3>
                   <p>Experienced</p>
                 </div>
@@ -237,7 +275,7 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
+                <div class="article-text">
                   <h3>CSS</h3>
                   <p>Experienced</p>
                 </div>
@@ -248,7 +286,7 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
+                <div class="article-text">
                   <h3>React</h3>
                   <p>Intermediate</p>
                 </div>
@@ -259,46 +297,19 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
+                <div class="article-text">
                   <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Boodstrap</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Vite</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
-                  <h3>Netlify</h3>
+                <div class="article-text">
+                  <h3>Boodstrap</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -308,7 +319,29 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
+                <div class="article-text">
+                  <h3>Vite</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div class="article-text">
+                  <h3>Netlify</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+             <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div class="article-text">
                   <h3>GitHub</h3>
                   <p>Intermediate</p>
                 </div>
@@ -319,7 +352,7 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
+                <div class="article-text">
                   <h3>Goggle Fonts</h3>
                   <p>Intermediate</p>
                 </div>
@@ -330,8 +363,19 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
+                <div class="article-text">
                   <h3>Animasta</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div class="article-text">
+                  <h3>Vs Code</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -341,25 +385,15 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div>
-                  <h3>Vs Code</h3>
+                <div class="article-text">
+                  <h3>WordPress</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
+
             </div>
           </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
@@ -433,60 +467,23 @@
   <div style="margin-bottom: 7vh;" class="contact-content">
 <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
-       <p style="text-align: center;"> Please email me a short overview of what you need for your website,
-            and I'll get back to you as soon as posible
+       <p style="text-align: center;"> Please email me a short overview of what you need for your website
           </p>
       <div class="contact-info-upper-container">
        
         <div class="contact-info-container">
+
+          <a href="mailto:myfreewebsiteproject@gmail.com">
           <img
             src="./assets/email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          
-          <p><a href="mailto:myfreewebsiteproject@gmail.com">myfreewebsiteproject@gmail.com</a></p>
+          <p class="email">
+            myfreewebsiteproject@gmail.com</p></a>
+         
         </div>
       </div>
-
-</div>
-
-<div class="donate-wrapper">
-  <p class="section__text__p1">
-    Building Websites is a time consuming activity,
-    if you would like to support my work please consider 
-    donating with the link below 
-</p>
-  <h1 class="title">Thank you for your support</h1>
-  <div class="contact-info-upper-containe">
-    <p style="text-align: center;">scan the code or click the image</p>
-    <div class="contact-info-container1">
-       
-      <div class="paypal">
-       
-        <img
-        src="./assets/paypal.png"
-        alt="paypal icon"
-        class="paypal-icon"
-      />
-      </div>
-      
-
-      <div class="buymeacoffe">
-<a href="https://www.buymeacoffee.com/geraldorti3">
-<img
-      src="./assets/buymeacoffe.jpg"
-      alt="paypal icon"
-      class="paypal-icon"
-    />
-
-</a>
- 
-      </div>
-     
-    </div>
-  </div>
-
 
 </div>
 </div>
@@ -500,13 +497,13 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#projects">Projects & Experience</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 Free Website project. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Digital Solutions. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
