@@ -174,10 +174,17 @@
       margin-left: 5%;
       
     }
+    .pricing-list{
+      margin: 5vh;
+      }
     .contact-info-upper-container{
       width: 50%;
     }
     .email{
       display: none;
     }
+    .details-container4{
+      display: none;
+    }
+  
 }

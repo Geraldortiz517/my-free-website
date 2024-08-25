@@ -213,10 +213,11 @@ section {
 
 /* ICONS */
 
-.icon {
+.icon, .icon1 {
   cursor: pointer;
   height: 2rem;
 }
+
 
 /* BUTTONS */
 
@@ -366,7 +367,9 @@ section {
 .pricing-text{
   width: 100%;
 }
-
+.pricing-list{
+margin: 9vh;
+}
 
 
 /* ABOUT SECTION */
