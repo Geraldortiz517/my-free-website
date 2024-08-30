@@ -68,14 +68,27 @@
   .pricing-text{
     width: 80%;
   }
+  #pricinimg{
+    
+    display: none;
+  }
+  #pricing{
+    margin-top: 10vh;
+  }
 }
 @media screen and (max-width: 800px) {
   .pricing-img{
     width: 80%;
+    display: none;
   }
   #pricinimg{
-    width: 400px;
+
+    display: none;
   }
+  #pricing{
+    margin-top: 10vh;
+  }
+
 }
 @media screen and (max-width: 600px) {
   .pricing-img{
@@ -83,6 +96,10 @@
   }
   #pricinimg{
     width: 100%;
+    display: none;
+  }
+  #pricing{
+    margin-top: 10vh;
   }
   #contact,
   footer {
